@@ -337,7 +337,7 @@ A model prediction does not establish that a drug combination is clinically effe
 **Focus:** Machine Learning, Gene Expression Analysis, and Oncology Drug Combination Prediction
 
 **Repository:**
-https://github.com/sathvika-panuganti/Drug-Synergy
+https://github.com/pyTharun/D-Synergy.git
 
 ---
 
