@@ -343,4 +343,5 @@ https://github.com/pyTharun/D-Synergy.git
 
 ## 📜 License
 
-This project is intended for academic and educational purposes. A formal open-source license can be added as the project is finalized.
+This project is intended for academic and educational purposes.
+
