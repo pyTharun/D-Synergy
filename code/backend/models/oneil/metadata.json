@@ -1,0 +1,42 @@
+{
+  "dataset": "Oneil",
+  "model_type": "linear",
+  "model_name": "Linear Regression",
+  "morgan_radius": 2,
+  "fingerprint_size": 2048,
+  "training_samples": 2171,
+  "testing_samples": 543,
+  "trained_at": "2026-09-24T14:16:02.872348",
+  "metrics": {
+    "MAE": 14.2624,
+    "MSE": 356.8097,
+    "RMSE": 18.8894,
+    "R2": 0.2876
+  },
+  "dataset_stats": {
+    "rows": 2714,
+    "columns": [
+      "drugname1",
+      "drugname2",
+      "cellline",
+      "score"
+    ],
+    "missing": {
+      "drugname1": 0,
+      "drugname2": 0,
+      "cellline": 0,
+      "score": 0
+    },
+    "duplicates": 0,
+    "score_stats": {
+      "min": -61.28586028,
+      "max": 71.53762562,
+      "mean": 3.7499546017118637,
+      "median": 3.0267453805,
+      "std": 21.16232058903882
+    },
+    "unique_cell_lines": 32,
+    "valid_rows": 2714,
+    "unique_drug_pairs": 84
+  }
+}

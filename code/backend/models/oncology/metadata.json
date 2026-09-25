@@ -1,0 +1,42 @@
+{
+  "dataset": "OncologyScreen",
+  "model_type": "linear",
+  "model_name": "Linear Regression",
+  "morgan_radius": 2,
+  "fingerprint_size": 2048,
+  "training_samples": 928,
+  "testing_samples": 232,
+  "trained_at": "2026-09-24T14:15:49.541401",
+  "metrics": {
+    "MAE": 15.0276,
+    "MSE": 412.0886,
+    "RMSE": 20.3,
+    "R2": 0.2894
+  },
+  "dataset_stats": {
+    "rows": 1160,
+    "columns": [
+      "drugname1",
+      "drugname2",
+      "cellline",
+      "score"
+    ],
+    "missing": {
+      "drugname1": 0,
+      "drugname2": 0,
+      "cellline": 0,
+      "score": 0
+    },
+    "duplicates": 0,
+    "score_stats": {
+      "min": -307.0262696,
+      "max": 114.6457311,
+      "mean": 2.865991518008621,
+      "median": 0.5642039395,
+      "std": 25.687704961891047
+    },
+    "unique_cell_lines": 29,
+    "valid_rows": 1160,
+    "unique_drug_pairs": 40
+  }
+}

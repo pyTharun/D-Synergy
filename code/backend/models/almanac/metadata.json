@@ -1,0 +1,42 @@
+{
+  "dataset": "Almanac",
+  "model_type": "linear",
+  "model_name": "Linear Regression",
+  "morgan_radius": 2,
+  "fingerprint_size": 2048,
+  "training_samples": 28409,
+  "testing_samples": 7103,
+  "trained_at": "2026-09-24T14:18:28.731191",
+  "metrics": {
+    "MAE": 35.3506,
+    "MSE": 2317.8264,
+    "RMSE": 48.1438,
+    "R2": 0.2225
+  },
+  "dataset_stats": {
+    "rows": 35512,
+    "columns": [
+      "drugname1",
+      "drugname2",
+      "cellline",
+      "score"
+    ],
+    "missing": {
+      "drugname1": 0,
+      "drugname2": 0,
+      "cellline": 0,
+      "score": 0
+    },
+    "duplicates": 0,
+    "score_stats": {
+      "min": -197.9169341,
+      "max": 156.5481246,
+      "mean": -23.086745852680785,
+      "median": -23.0,
+      "std": 55.14274556539854
+    },
+    "unique_cell_lines": 39,
+    "valid_rows": 35512,
+    "unique_drug_pairs": 948
+  }
+}

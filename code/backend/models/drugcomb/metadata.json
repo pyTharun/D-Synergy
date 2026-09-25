@@ -1,0 +1,42 @@
+{
+  "dataset": "DrugComb",
+  "model_type": "linear",
+  "model_name": "Linear Regression",
+  "morgan_radius": 2,
+  "fingerprint_size": 2048,
+  "training_samples": 13715,
+  "testing_samples": 3429,
+  "trained_at": "2026-09-24T14:16:52.432793",
+  "metrics": {
+    "MAE": 4.0666,
+    "MSE": 1143.6248,
+    "RMSE": 33.8175,
+    "R2": -30.5184
+  },
+  "dataset_stats": {
+    "rows": 17144,
+    "columns": [
+      "drugname1",
+      "drugname2",
+      "cellline",
+      "score"
+    ],
+    "missing": {
+      "drugname1": 0,
+      "drugname2": 0,
+      "cellline": 0,
+      "score": 0
+    },
+    "duplicates": 0,
+    "score_stats": {
+      "min": -26.0375,
+      "max": 175.9135,
+      "mean": 0.825406448320112,
+      "median": 0.13,
+      "std": 5.913875345950234
+    },
+    "unique_cell_lines": 65,
+    "valid_rows": 17144,
+    "unique_drug_pairs": 521
+  }
+}
